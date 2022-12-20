@@ -1,3 +1,5 @@
+# Python script that uses the AWS SDK for Python (Boto3) to determine if there are any expired SSL/TLS certificates managed by AWS Certificate Manager
+
 import boto3
 
 # Create an AWS Certificate Manager client
