@@ -14,3 +14,8 @@ for certificate in certificates["CertificateSummaryList"]:
     if details["Certificate"]["Status"] == "EXPIRED":
         # Print the ARN of the expired certificate
         print(certificate["CertificateArn"])
+
+        
+#This script lists all of the certificates in your AWS account, and then checks the status of each certificate. If the status is "EXPIRED", it prints the ARN of the expired certificate.
+
+#You will need to have the AWS SDK for Python (Boto3) installed and configured on your machine in order to run this script. You can install Boto3 using pip install boto3. You will also need to have an AWS access key and secret key, which you can obtain from the AWS Management Console.
