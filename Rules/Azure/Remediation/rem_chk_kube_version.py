@@ -1,5 +1,4 @@
 # Python script that will upgrade an AKS cluster to the latest available version of Kubernetes
-# You can use the Azure Python SDK (azure-mgmt-authorization).
 
 import os
 
